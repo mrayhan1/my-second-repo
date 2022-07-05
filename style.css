@@ -1,0 +1,93 @@
+body{
+margin: 0;
+padding: 0;
+}
+/* ===== Start Hire Me Section ========== */
+.section-hire-me{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.display-flex{
+    display: flex;
+    padding: 100px;
+}
+
+#img-hire-me{
+    width:650px;
+    margin-left: 150px;
+    margin-top: -80px;
+    height: 650px;
+}
+h1{
+    font-size: 50px;
+    line-height: 20px;
+}
+.tagline{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+.text-area{
+    width: 400px;
+}
+/* ===== End Hire Me Section ========== */
+
+/* ==== Star Dream Big Section ====*/
+.section-dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right
+}
+#img-download-resume{
+    width: 500px;
+    margin-right: 100px;;
+}
+.text-container{
+    margin-top: 80px;
+    width: 600px;
+}
+/* ==== Star Dream Big Section ====*/
+
+
+/* ==== Start Experience Section ===*/
+.sec-ex-con{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.ex-con{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 30px 5px;
+    margin-bottom: 20px;
+    padding: 40px;
+    z-index: 1;
+}
+.one-color{
+    color: orange;
+    font-size: 20px;
+}
+.text-size{
+    font-size: 40px;
+    text-decoration: underline;
+}
+/* ==== End Experience Section ===*/
+
+footer{
+    text-align: center;
+    height: 100px;
+    margin-top: 200px;
+    font-variant: small-caps;
+    font-size: 30px;
+    background-color: rgb(237, 232, 222);
+}
