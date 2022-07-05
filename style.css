@@ -72,6 +72,15 @@ a{
     margin-bottom: 20px;
     padding: 40px;
     z-index: 1;
+    border-left: 10px solid;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10git px;
+}
+.cont-one-bor-color{
+    border-color: orange;
+}
+.cont-two-bor-color{
+    border-color: blue;
 }
 .one-color{
     color: orange;
@@ -90,4 +99,6 @@ footer{
     font-variant: small-caps;
     font-size: 30px;
     background-color: rgb(237, 232, 222);
+}
+hello{
 }
